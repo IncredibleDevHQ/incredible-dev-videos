@@ -15,7 +15,7 @@ Official repository for content series created by team Incredible.dev .
 
 ## Content series
 
-* [TensorflowJS](tensorflow-js/README.md)
+* [Rust 101](Rust-101/README.md)
 
 
 ___
