@@ -1,3 +1,7 @@
+main = putStrLn "Hello, World!"
+
+--if more than one line of code 
 main = do
-    putStrLn "Hello, World!"
+    putStr "Hello,"
+    putStrLn "Incredible developer"
     return ()
