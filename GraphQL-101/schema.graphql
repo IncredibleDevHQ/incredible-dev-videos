@@ -1,0 +1,20 @@
+type author {
+    id: Int!
+    name: String!
+    email: String
+    created_at: timestamptz
+}
+
+type article {
+    id: Int!
+    title: String!
+    short_description: String!
+    content: String!
+    author_id: Int!
+}
+
+type Query {
+  fetchAuthor (
+    id: Int!
+  ): author
+}
