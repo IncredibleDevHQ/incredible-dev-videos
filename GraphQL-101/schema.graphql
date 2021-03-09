@@ -12,9 +12,3 @@ type article {
     content: String!
     author_id: Int!
 }
-
-type Query {
-  fetchAuthor (
-    id: Int!
-  ): author
-}
