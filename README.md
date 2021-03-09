@@ -16,6 +16,7 @@ Official repository for content series created by team Incredible.dev .
 ## Content series
 
 * [Rust 101](Rust-101/README.md)
+* [Haskell 101](Haskell/README.md)
 
 
 ___
