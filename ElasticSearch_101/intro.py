@@ -1,12 +1,10 @@
 # Elastic Search
 # Super Easy Installation -> $ pip install elastic-apm[flask]
 from flask import Flask
-
 from elasticapm.contrib.flask import ElasticAPM
 from elasticapm.handlers.logging import LoggingHandler
 
 app = Flask(__name__)
-
 apm = ElasticAPM(app)
 
 if __name__ == '__main__':
