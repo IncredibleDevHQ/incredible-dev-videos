@@ -10,7 +10,7 @@ num[1]=20;
 num[2]=70;  
 
 for(int i=0;i<num.length;i++) 
-  System.out.println(a[i]);  
+  System.out.println(num[i]);  
 }}  
 
 int nums[]={33,3,4,5};
