@@ -12,3 +12,5 @@ a[2]=70;
 for(int i=0;i<a.length;i++) 
   System.out.println(a[i]);  
 }}  
+
+int a[]={33,3,4,5};
