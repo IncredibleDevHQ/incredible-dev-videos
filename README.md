@@ -17,6 +17,8 @@ Official repository for content series created by team Incredible.dev .
 
 * [Rust 101](Rust-101/README.md)
 * [Haskell 101](Haskell/README.md)
+* [Shell Script 101](shell_scripts/README.md)
+* [Code tricks in C Language](c/README.md)
 
 
 ___
