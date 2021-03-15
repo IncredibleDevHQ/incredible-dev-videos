@@ -19,7 +19,7 @@ Official repository for content series created by team Incredible.dev .
 * [Haskell 101](Haskell/README.md)
 * [Shell Script 101](shell_scripts/README.md)
 * [Code tricks in C Language](c/README.md)
-
+* [Python 101](Python101/README.md)
 
 ___
 
