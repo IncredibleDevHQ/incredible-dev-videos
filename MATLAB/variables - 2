@@ -1,0 +1,10 @@
+format long
+x = 7 + 10/3 + 5 ^ 1.2    %x = 17.2319816406394
+
+format bank
+daily_wage = 177.45;
+weekly_wage = daily_wage * 6    %weekly_wage = 1064.70
+
+format rat
+4.678 * 4.9   % ans = 34177/1491 
+
