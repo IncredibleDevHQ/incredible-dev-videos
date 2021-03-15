@@ -1,16 +1,14 @@
-from flask import Flask
-from elasticapm.contrib.flask import ElasticAPM
-from elasticapm.handlers.logging import LoggingHandler
-app = Flask(__name__)
-apm = ElasticAPM(app)
-@app.route('/')
-def bar():
-    try:
-        1 / 0
-    except ZeroDivisionError:
-        app.logger.error( 'I cannot math', exc_info=True)
-if __name__ == '__main__':
-    # Create a logging handler and attach it.
-    handler = LoggingHandler(client=apm.client)
-    handler.setLevel(logging.WARN)
-    app.logger.addHandler(handler)
+import elasticsearch
+es = elasticsearch.Elasticsearch(HOST="http://localhost",PORT=9200)
+
+# Let's create an index
+es.indices.create(index='es-intro',ignore=[400])
+# response: {'acknowledged': True, 'shards_acknowledged': True, 'index': 'es-intro'}
+
+# Delete an index 
+es.indices.delete(index="es-intro",ignore=[400,404])
+# response {'acknowledged': True}
+
+# Check if the index was deleted
+es.indices.exists(index="es-intro")
+# response: False/True
