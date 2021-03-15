@@ -1,2 +1,2 @@
  main = do
-    putStr "Hello,World!"
+    putStrLn "Hello,World!"
