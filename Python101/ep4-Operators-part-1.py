@@ -10,6 +10,7 @@ print(17 // 4) # result :
 
 # Assignment 
 x = 5 
+# Shorthand Assignment
 x += 3 # same as x = x + 3
 x -= 3 # same as x = x - 3
 x *= 3 # same as x = x * 3
