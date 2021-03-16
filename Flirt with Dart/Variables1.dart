@@ -5,5 +5,7 @@ void main() {
   //int year = 2021;
   var pi = 3.14;
   //double pi = 3.14;
-  print("$name $year $pi");
+  var isTall = false;
+  //bool isTall = flase;
+  print("$name $year $pi $isTall");
 }
