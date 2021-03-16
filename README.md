@@ -21,6 +21,7 @@ Official repository for content series created by team Incredible.dev .
 * [Code tricks in C Language](c/README.md)
 * [Python 101](Python101/README.md)
 * [PHP 101](PHP-101/README.md)
+* [C++ Algorithms](CPP-Algorithms/README.md)
 
 ___
 
