@@ -1,4 +1,4 @@
-main = do{
+main = do
    let company = "Incredible.dev" --string
    let score = 4  --Int
    let win = True --Bool
@@ -8,4 +8,3 @@ main = do{
    print(score)
    putStr("Did they win:") 
    print(win)
-}
