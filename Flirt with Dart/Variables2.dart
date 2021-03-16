@@ -10,6 +10,6 @@ void main() {
   //final int year = 2021;
   const pi = 3.14;
   
-  print("$x $name1 $name2 $year $pi")
+  print("$x $name1 $name2 $year $pi");
   //null Hello World 2021 3.14
 }
