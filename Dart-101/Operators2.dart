@@ -1,4 +1,4 @@
-// Relational and Logical Operators
+/* Sometimes we need to compare to be sure */
 
 void main() {
   // ==, !=, >, <, >=, <=

@@ -1,4 +1,5 @@
-// Conditional Expressions and Cascading
+/* Extras never hurt anyone. */
+/* Conditional and cascading expressions */
 
 void main() {
   // condition ? exp1 : exp2

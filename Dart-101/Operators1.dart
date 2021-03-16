@@ -1,4 +1,4 @@
-// Arithmetic and Assignment Operators
+/* We all love math.Right? No? */
 
 void main() {
   // +,-,/,*,%

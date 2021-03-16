@@ -1,3 +1,5 @@
+/* Dont like duplicates? This is for you.*/
+
 void main() {
   //Set<DataType> name;
   //var name = <DataType>{}
