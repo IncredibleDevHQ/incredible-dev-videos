@@ -1,12 +1,15 @@
+/* Want to make a todo with me? */
+
 void main() {
-  var list = [1,2,3,];
-  // var list = const [1,2,3];
+  var list = ["Wakeup","Learn","Sleep",];
+  // var list = const ["Wakeup","Learn","Sleep"];
   print("${list[0]},${list[1]}");
-  // 1,3
-  print(list.length);
+  // Wakeup, Learn
+  print(list.length); 
   // 3
   
+  /* Dynamic list and spread operator */
   var list2 = [0, ...list];
   print(list2);
-  // [0, 1, 2, 3]
+  // [0, Wakeup, Learn, Sleep]
 }
