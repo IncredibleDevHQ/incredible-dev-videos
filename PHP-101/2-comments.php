@@ -5,21 +5,19 @@
 <body>
 
 <?php
-
   # Here is a single-line comment
-
+  
   // Here is another single-line comment
 
   /*
-    You can also have multiple-lines comment block
-    that can spans over
+    You can have multiple-lines comment block
+    that spans over
     multiple lines
   */
-
-  // You can also use comments to skip parts of a code line
-  $sum = 3 /* + 15 */ + 2;
+  
+  // You can also use comments to skip parts of a code in a single line
+  $sum = 5 /* + 15 */ + 5;
   echo $sum;
-
 ?>
 
 </body>

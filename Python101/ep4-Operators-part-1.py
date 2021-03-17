@@ -6,7 +6,7 @@ print(8 * 8)   # result : 64
 print(17 / 4)  # result : 4.25
 print(9 % 2)   # result : 1
 print(2 ** 8)  # result : 256
-print(17 // 4) # result : 
+print(17 // 4) # result : 4
 
 # Assignment 
 x = 5 

@@ -6,6 +6,7 @@ int main()
     int x = 10; 
     ptr = &x; 
 } 
-printf("%d", *ptr); 
+printf("%d", *ptr); //10
+printf("%d", &x); //throws error
 }
-//output: 10
+
