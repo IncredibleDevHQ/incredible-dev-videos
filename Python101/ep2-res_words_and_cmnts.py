@@ -1,4 +1,6 @@
 # Comments and Reserved Words
+box = "candy"
+box = "Apple"
 name = "Rossum" # Setting value on name variable.
 """
 False 	True 	if 	try
