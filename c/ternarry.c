@@ -15,6 +15,4 @@ int main()
     printf("\n%d is bigger",(a>b)?a:b);
     return 0;
 }
-//Output:
-//20 is bigger
-//20 is bigger
+
