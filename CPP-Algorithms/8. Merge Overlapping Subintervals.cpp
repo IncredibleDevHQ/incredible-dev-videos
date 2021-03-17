@@ -1,4 +1,6 @@
 // Merge Overlapping Subintervals
+// Input: intervals = [[1,4],[4,5]]
+// Output: [[1,5]]
 
 vector<vector<int>> merge(vector<vector<int>>& intervals) {
     vector<vector<int>> mergedIntervals;
@@ -24,6 +26,3 @@ vector<vector<int>> merge(vector<vector<int>>& intervals) {
     mergedIntervals.push_back(tempInterval);
     return mergedIntervals;
 }
-
-// Input: intervals = [[1,4],[4,5]]
-// Output: [[1,5]]
