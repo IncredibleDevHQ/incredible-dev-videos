@@ -1,7 +1,7 @@
 # Beyond variables 
 vowel = 'a'
 vowel = 'e'
-print(vowel) # Output : 'b'
+print(vowel) # Output : 'e'
 
 vowels = ['a','e','i']
 nums = [1 , "two" , 3 , "four" ]
