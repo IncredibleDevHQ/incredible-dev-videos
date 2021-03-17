@@ -20,5 +20,5 @@ void main() {
   var s = Son();
   s.say();
   // Hey Son!
-  // Thanks for 100000
+  // Thanks dad for 100000
 }
