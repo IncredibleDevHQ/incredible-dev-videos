@@ -14,5 +14,5 @@ void main() {
   show();
   var result = add(2,3);
   print(result); //5
-  //print(result(2,3));
+  //print(add(2,3));
 }
