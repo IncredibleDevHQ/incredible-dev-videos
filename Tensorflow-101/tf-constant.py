@@ -1,7 +1,9 @@
+#Introduction to tensorflow
+# $pip install tensorflow
 import tensorflow as tf
-msg = tf.constant('Hello, TensorFlow!')
+msg = tf.constant('Hello')
 print(msg)
-# tf.Tensor(b'Hello, TensorFlow!', shape=(), dtype=string)
+# tf.Tensor(b'Hello', shape=(), dtype=string)
 l = tf.constant([1, 2, 3])
 print(l)
 # tf.Tensor([1 2 3], shape=(3,), dtype=int32)
