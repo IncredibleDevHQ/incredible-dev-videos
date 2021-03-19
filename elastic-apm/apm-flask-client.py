@@ -1,7 +1,6 @@
-from flask import Flask
-from elasticapm.contrib.flask import ElasticAPM
 import os
 from flask import Flask
+from elasticapm.contrib.flask import ElasticAPM
 from elasticapm.contrib.flask import ElasticAPM
 
 flask_app = Flask(__name__)
@@ -19,6 +18,5 @@ def foo():
     except ZeroDivisionError:
         apm_client.capture_exception()
 
-# Note : that errors and transactions will only be sent to the APM Server if your app is NOT in debug mode!
 if __name__ == "__main__":
     flask_app.run(debug=False,port=6060)
