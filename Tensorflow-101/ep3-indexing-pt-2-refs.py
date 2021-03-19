@@ -12,5 +12,5 @@ print("From 2, before 7:", rank_1[2:7].numpy())
 # From 2, before 7: [1 2 3 5 8]
 print("From 4 to the end:", rank_1[4:].numpy())
 # From 4 to the end: [ 3  5  8 13 21 34]
-print("Reversed:", rank_1[::-1].numpy())
-# Reversed: [5  3  2  1  1  0]
+print(rank_1[::-1].numpy())
+# [34 21 13  8  5  3  2  1  1  0]
