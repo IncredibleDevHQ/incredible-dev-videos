@@ -6,13 +6,21 @@ abstract class Doer {
   void doSomething();
 }
 
-class EffectiveDoer extends Doer {
+class EffectiveDoer1 extends Doer {
   void doSomething() {
     print("Let's party!");
   }
 }
 
+class EffectiveDoer2 extends Doer {
+  void doSomething() {
+    print("Let's sleep");
+  }
+}
+
 void main() {
-  var d = EffectiveDoer();
-  d.doSomething();
+  var d1 = EffectiveDoer1();
+  var d2 = EffectiveDoer2();
+  d1.doSomething();
+  d2.doSomething();
 }
