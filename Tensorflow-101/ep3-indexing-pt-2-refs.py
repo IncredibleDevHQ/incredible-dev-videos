@@ -1,7 +1,8 @@
 # Indexing tensors
-rank_1 = tf.constant([0, 1, 2, 3, 5])
+import tensorflow as tf
+rank_1 = tf.constant([0,1,1,2,3,5,8,13,21,34])
 print(rank_1.numpy())
-# Output : [ 0  1  2  3  5]
+# [ 0  1  1  2  3  5  8 13 21 34]
 # Rules of indexing
 print("First:", rank_1[0].numpy())
 # First: 0
