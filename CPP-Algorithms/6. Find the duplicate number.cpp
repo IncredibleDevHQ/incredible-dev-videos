@@ -1,9 +1,9 @@
 // Find the duplicate number
+// Input: nums = [3,1,3,4,2]
+// Output: 3
 
-// using the double pointer method
 int findDuplicate(vector<int>& nums) {
-    // Input: nums = [3,1,3,4,2]
-    // Output: 3  
+    // Floyd's Cycle-Finding Algorithm
     int slow = nums[0];
     int fast = nums[0];
     do{
