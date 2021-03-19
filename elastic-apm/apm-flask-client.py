@@ -1,4 +1,3 @@
-import os
 from flask import Flask
 from elasticapm.contrib.flask import ElasticAPM
 from elasticapm.handlers.logging import LogginHandler
