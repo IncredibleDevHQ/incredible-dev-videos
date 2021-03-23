@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', function (req, res) {
   try {
-    throw new Error('Ups, something broke!')
+    throw new Error('something broke!')
   } catch (err) {
     apm.captureError(err)
   }
