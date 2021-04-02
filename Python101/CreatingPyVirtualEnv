@@ -1,0 +1,11 @@
+#have python and pip installed
+python3 --version
+pip –version
+#install venv module
+sudo apt-get install -y python3-venv
+#create 
+python3 -m venv my_new_env
+#activate
+source my_new_env/bin/activate
+#deactivate
+deactivate
