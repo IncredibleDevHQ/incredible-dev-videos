@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Message for the commit"
+git push
+//to pull your local changes
+git pull
+git diff HEAD
