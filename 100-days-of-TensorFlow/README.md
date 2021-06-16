@@ -12,6 +12,7 @@ Ready to hopin and say hi to the Incredible 100 days of Tensorflow community? Cl
 
 - Episode 2: Basics of fine-tuning a simple neural network
     - [Video](https://youtu.be/SC5dwpyttS8)
+    - [Code](https://colab.research.google.com/drive/19ZfsbjekZap225jmy0CujN79-XAzg9S1?usp=sharing)
     - [Twitter](https://twitter.com/IncredibleDevHQ/status/1404441799523979271)
 
 
